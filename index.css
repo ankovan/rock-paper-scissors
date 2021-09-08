@@ -5,7 +5,7 @@
 body {
   height: 100vh;
   overflow: hidden;
-  background-color: #219ebc;
+  background-color: #219ebccc;
 }
 #game-field {
   display: flex;
@@ -18,13 +18,13 @@ body {
 .hand.right {
   /* left: 28rem; */
   transform: scaleX(-1) rotate(90deg);
-  margin-right: 18rem;
+  margin-right: 19rem;
   color: #ffb703;
 }
 .hand.left {
   /* right: 28rem; */
   transform: rotate(90deg);
-  margin-left: 18rem;
+  margin-left: 19rem;
   color: #023047;
   /* -webkit-transform: scaleX(-1); */
 }
@@ -63,17 +63,17 @@ transform: revert;
 }
 #main-score {
   color: #023047;
-  font-size: 5rem;
+  font-size: 5.2rem;
   margin-top: 1rem;
 }
 #ai-score {
   color: #ffb703;
-  font-size: 5rem;
+  font-size: 5.2rem;
   margin-top: 1rem;
 }
 button {
   margin-right: 0.4rem;
   margin-left: 0.4rem;
-  border: none;
+  border: dashed;
   background-color: #ffb703;
 }
