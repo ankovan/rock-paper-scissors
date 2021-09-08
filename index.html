@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock-paper-scissors</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
+  </head>
+  <body>
+    <div id ="score-field">
+      <div id ="main-score"></div>
+      <div id ="ai-score"></div>
+    </div>
+    <div id = "game-field">
+      <i id = "main-hand" class="fas fa-hand-rock hand left"></i>
+      <i id = "ai-hand" class="fas fa-hand-rock hand right"></i>
+    </div>
+    <div id ="game-buttons">
+      <button><i onclick = "clickAction('rock')" class="fas fa-hand-rock action rock"></i></button>
+      <button><i onclick = "clickAction('scissors')" class="fas fa-hand-scissors action scissors"></i></button>
+      <button><i onclick = "clickAction('paper')" class="fas fa-hand-paper action paper"></i></button>
+    </div>
+  </body>
+</html>
