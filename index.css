@@ -10,7 +10,7 @@ body {
 #game-field {
   display: flex;
   justify-content: space-around;
-  margin-top: 16rem;
+  margin-top: 12rem;
 }
 .hand {
   font-size: 16rem;
@@ -18,13 +18,15 @@ body {
 .hand.right {
   /* left: 28rem; */
   transform: scaleX(-1) rotate(90deg);
-  margin-right: 19rem;
+  margin-right: 20rem;
+  padding-right: 1rem;
   color: #ffb703;
 }
 .hand.left {
   /* right: 28rem; */
   transform: rotate(90deg);
-  margin-left: 19rem;
+  margin-left: 20rem;
+  padding-left: 1rem;
   color: #023047;
   /* -webkit-transform: scaleX(-1); */
 }
@@ -59,17 +61,16 @@ transform: revert;
   display: flex;
   font-family: fantasy;
   justify-content: space-evenly;
-  margin-top: 1.5rem;
 }
 #main-score {
   color: #023047;
   font-size: 5.2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 #ai-score {
   color: #ffb703;
   font-size: 5.2rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 button {
   margin-right: 0.4rem;
