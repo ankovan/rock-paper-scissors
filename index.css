@@ -59,7 +59,7 @@ transform: revert;
 #score-field {
   font-size: 3rem;
   display: flex;
-  font-family: fantasy;
+  font-family: sans-serif;
   justify-content: space-evenly;
 }
 #main-score {
